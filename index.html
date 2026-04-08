@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- saved from url=(0051)https://vm-sb7mdemhgps311fnjdu6y2.vusercontent.net/ -->
+<!-- saved from url=(0051)https://vm-tx69sbois8rjsvkzagpxth.vusercontent.net/ -->
 <html lang="en">
 
 <head>
@@ -837,6 +837,807 @@
                       </tr>
                     </tbody>
                   </table>
+                </div>
+              </div>
+            </div>
+            <div class="space-y-8">
+              <div class="rounded-xl border border-border bg-gradient-to-r from-orange-50 to-amber-50 p-6 shadow-sm">
+                <h3 class="mb-4 text-xl font-bold text-foreground">3.3 다목적 구장 인식 성능 개선 모듈</h3>
+                <div class="grid gap-4 md:grid-cols-3">
+                  <div class="flex items-start gap-3 rounded-lg bg-white/80 p-4">
+                    <div class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-orange-100"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-layers h-4 w-4 text-orange-600" aria-hidden="true">
+                        <path
+                          d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z">
+                        </path>
+                        <path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"></path>
+                        <path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"></path>
+                      </svg></div>
+                    <div>
+                      <p class="font-medium text-orange-900">다목적 구장의 복잡성</p>
+                      <p class="mt-1 text-sm text-orange-700">농구, 배구, 배드민턴 등 다수 종목 라인 혼재로 오인식률 높음</p>
+                    </div>
+                  </div>
+                  <div class="flex items-start gap-3 rounded-lg bg-white/80 p-4">
+                    <div class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-amber-100"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-settings2 lucide-settings-2 h-4 w-4 text-amber-600" aria-hidden="true">
+                        <path d="M14 17H5"></path>
+                        <path d="M19 7h-9"></path>
+                        <circle cx="17" cy="17" r="3"></circle>
+                        <circle cx="7" cy="7" r="3"></circle>
+                      </svg></div>
+                    <div>
+                      <p class="font-medium text-amber-900">환경적 변수</p>
+                      <p class="mt-1 text-sm text-amber-700">조명 반사, 카메라 미세 흔들림으로 캘리브레이션 이탈 발생</p>
+                    </div>
+                  </div>
+                  <div class="flex items-start gap-3 rounded-lg bg-white/80 p-4">
+                    <div class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-emerald-100"><svg
+                        xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                        class="lucide lucide-eye h-4 w-4 text-emerald-600" aria-hidden="true">
+                        <path
+                          d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0">
+                        </path>
+                        <circle cx="12" cy="12" r="3"></circle>
+                      </svg></div>
+                    <div>
+                      <p class="font-medium text-emerald-900">개선 목표</p>
+                      <p class="mt-1 text-sm text-emerald-700">UI/시스템 고도화를 통한 실시간 코트 인식 정밀도 향상</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="rounded-xl border border-border bg-card p-6 shadow-sm">
+                <div class="mb-6 flex items-center gap-3">
+                  <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-blue-100"><svg
+                      xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="lucide lucide-mouse-pointer2 lucide-mouse-pointer-2 h-5 w-5 text-blue-600"
+                      aria-hidden="true">
+                      <path
+                        d="M4.037 4.688a.495.495 0 0 1 .651-.651l16 6.5a.5.5 0 0 1-.063.947l-6.124 1.58a2 2 0 0 0-1.438 1.435l-1.579 6.126a.5.5 0 0 1-.947.063z">
+                      </path>
+                    </svg></div>
+                  <div>
+                    <h4 class="text-lg font-semibold text-foreground">모듈 1: 다목적 구장용 코트 라인 설정 UI 개발</h4>
+                    <p class="text-sm text-muted-foreground">배구 코트 라인 데이터 분리 및 사용자 인터페이스 구현</p>
+                  </div>
+                </div>
+                <div class="grid gap-6 lg:grid-cols-2">
+                  <div class="rounded-lg border border-blue-200 bg-blue-50 p-4">
+                    <p class="mb-4 font-medium text-blue-900">인터랙티브 앵커링 (Interactive Anchoring)</p>
+                    <div
+                      class="relative mx-auto aspect-[16/10] w-full max-w-md rounded-lg border-2 border-blue-300 bg-white p-4">
+                      <div class="absolute inset-4 rounded border-2 border-orange-400 bg-orange-50/50">
+                        <div class="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-orange-400"></div>
+                        <div class="absolute left-[30%] top-0 h-full w-0.5 bg-orange-300 opacity-70"></div>
+                        <div class="absolute left-[70%] top-0 h-full w-0.5 bg-orange-300 opacity-70"></div>
+                      </div>
+                      <div
+                        class="absolute left-2 top-2 flex h-6 w-6 items-center justify-center rounded-full bg-blue-500 text-xs font-bold text-white shadow-lg">
+                        1</div>
+                      <div
+                        class="absolute right-2 top-2 flex h-6 w-6 items-center justify-center rounded-full bg-blue-500 text-xs font-bold text-white shadow-lg">
+                        2</div>
+                      <div
+                        class="absolute bottom-2 left-2 flex h-6 w-6 items-center justify-center rounded-full bg-blue-500 text-xs font-bold text-white shadow-lg">
+                        3</div>
+                      <div
+                        class="absolute bottom-2 right-2 flex h-6 w-6 items-center justify-center rounded-full bg-blue-500 text-xs font-bold text-white shadow-lg">
+                        4</div>
+                      <div
+                        class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 rounded bg-white/90 px-2 py-1 text-xs font-medium text-blue-800 shadow">
+                        Volleyball Court</div>
+                    </div>
+                    <div class="mt-4 space-y-2">
+                      <div class="flex items-center gap-2 text-sm text-blue-800">
+                        <div
+                          class="flex h-5 w-5 items-center justify-center rounded-full bg-blue-500 text-xs text-white">1
+                        </div><span>4개의 코너 포인트를 사용자가 지정</span>
+                      </div>
+                      <div class="flex items-center gap-2 text-sm text-blue-800"><svg xmlns="http://www.w3.org/2000/svg"
+                          width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                          stroke-linecap="round" stroke-linejoin="round"
+                          class="lucide lucide-refresh-cw h-4 w-4 text-blue-600" aria-hidden="true">
+                          <path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8"></path>
+                          <path d="M21 3v5h-5"></path>
+                          <path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16"></path>
+                          <path d="M8 16H3v5"></path>
+                        </svg><span>호모그래피(Homography) 자동 계산</span></div>
+                      <div class="flex items-center gap-2 text-sm text-blue-800"><svg xmlns="http://www.w3.org/2000/svg"
+                          width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                          stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-eye h-4 w-4 text-blue-600"
+                          aria-hidden="true">
+                          <path
+                            d="M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0">
+                          </path>
+                          <circle cx="12" cy="12" r="3"></circle>
+                        </svg><span>실시간 코트 영역 오버레이 표시</span></div>
+                    </div>
+                  </div>
+                  <div class="rounded-lg border border-emerald-200 bg-emerald-50 p-4">
+                    <p class="mb-4 font-medium text-emerald-900">프리셋 관리 (Preset Management)</p>
+                    <div class="space-y-3">
+                      <div class="flex items-center justify-between rounded-lg bg-white p-3 shadow-sm">
+                        <div class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-save h-4 w-4 text-emerald-600" aria-hidden="true">
+                            <path
+                              d="M15.2 3a2 2 0 0 1 1.4.6l3.8 3.8a2 2 0 0 1 .6 1.4V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z">
+                            </path>
+                            <path d="M17 21v-7a1 1 0 0 0-1-1H8a1 1 0 0 0-1 1v7"></path>
+                            <path d="M7 3v4a1 1 0 0 0 1 1h7"></path>
+                          </svg>
+                          <div>
+                            <p class="text-sm font-medium text-foreground">수원실내체육관</p>
+                            <p class="text-xs text-muted-foreground">Camera A - Main View</p>
+                          </div>
+                        </div><span class="rounded-full bg-emerald-100 px-2 py-0.5 text-xs text-emerald-700">저장됨</span>
+                      </div>
+                      <div class="flex items-center justify-between rounded-lg bg-white p-3 shadow-sm">
+                        <div class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-save h-4 w-4 text-emerald-600" aria-hidden="true">
+                            <path
+                              d="M15.2 3a2 2 0 0 1 1.4.6l3.8 3.8a2 2 0 0 1 .6 1.4V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z">
+                            </path>
+                            <path d="M17 21v-7a1 1 0 0 0-1-1H8a1 1 0 0 0-1 1v7"></path>
+                            <path d="M7 3v4a1 1 0 0 0 1 1h7"></path>
+                          </svg>
+                          <div>
+                            <p class="text-sm font-medium text-foreground">인천삼산체육관</p>
+                            <p class="text-xs text-muted-foreground">Camera B - Side View</p>
+                          </div>
+                        </div><span class="rounded-full bg-emerald-100 px-2 py-0.5 text-xs text-emerald-700">저장됨</span>
+                      </div>
+                      <div class="flex items-center justify-between rounded-lg bg-white/60 p-3">
+                        <div class="flex items-center gap-3"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                            height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-save h-4 w-4 text-gray-400" aria-hidden="true">
+                            <path
+                              d="M15.2 3a2 2 0 0 1 1.4.6l3.8 3.8a2 2 0 0 1 .6 1.4V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z">
+                            </path>
+                            <path d="M17 21v-7a1 1 0 0 0-1-1H8a1 1 0 0 0-1 1v7"></path>
+                            <path d="M7 3v4a1 1 0 0 0 1 1h7"></path>
+                          </svg>
+                          <div>
+                            <p class="text-sm font-medium text-gray-600">새 프리셋 추가</p>
+                            <p class="text-xs text-gray-400">구장별 카메라 뷰포트 저장</p>
+                          </div>
+                        </div><span class="rounded-full bg-gray-100 px-2 py-0.5 text-xs text-gray-500">+ 추가</span>
+                      </div>
+                    </div>
+                    <div class="mt-4 rounded-lg bg-white/80 p-3">
+                      <p class="text-sm font-medium text-emerald-800">핵심 기능</p>
+                      <ul class="mt-2 space-y-1 text-sm text-emerald-700">
+                        <li>- 구장별 카메라 뷰포트 저장 및 불러오기</li>
+                        <li>- 경기 시작 전 빠른 캘리브레이션 적용</li>
+                        <li>- 복수 카메라 앵글 프리셋 지원</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="rounded-xl border border-border bg-card p-6 shadow-sm">
+                <div class="mb-6 flex items-center gap-3">
+                  <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-violet-100"><svg
+                      xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="lucide lucide-camera h-5 w-5 text-violet-600" aria-hidden="true">
+                      <path
+                        d="M13.997 4a2 2 0 0 1 1.76 1.05l.486.9A2 2 0 0 0 18.003 7H20a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h1.997a2 2 0 0 0 1.759-1.048l.489-.904A2 2 0 0 1 10.004 4z">
+                      </path>
+                      <circle cx="12" cy="13" r="3"></circle>
+                    </svg></div>
+                  <div>
+                    <h4 class="text-lg font-semibold text-foreground">모듈 2: 온라인 카메라 캘리브레이션</h4>
+                    <p class="text-sm text-muted-foreground">물리적 변동에 대응하는 실시간 기하학적 보정</p>
+                  </div>
+                </div>
+                <div class="rounded-lg border border-violet-200 bg-gradient-to-r from-violet-50 to-purple-50 p-6">
+                  <div class="grid gap-4 md:grid-cols-4">
+                    <div class="relative">
+                      <div class="rounded-lg bg-white p-4 shadow-sm">
+                        <div
+                          class="mb-2 flex h-8 w-8 items-center justify-center rounded-full bg-violet-500 text-sm font-bold text-white">
+                          1</div>
+                        <p class="font-medium text-violet-900">특징점 탐지</p>
+                        <p class="mt-1 text-xs text-violet-700">코트 외곽 교차점 및 코트 라인 자동 탐지</p>
+                      </div>
+                      <div
+                        class="absolute right-0 top-1/2 hidden -translate-y-1/2 translate-x-1/2 text-violet-400 md:block">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg></div>
+                    </div>
+                    <div class="relative">
+                      <div class="rounded-lg bg-white p-4 shadow-sm">
+                        <div
+                          class="mb-2 flex h-8 w-8 items-center justify-center rounded-full bg-violet-500 text-sm font-bold text-white">
+                          2</div>
+                        <p class="font-medium text-violet-900">프레임 매칭</p>
+                        <p class="mt-1 text-xs text-violet-700">프레임 간 특징점 매칭을 통한 변화 감지</p>
+                      </div>
+                      <div
+                        class="absolute right-0 top-1/2 hidden -translate-y-1/2 translate-x-1/2 text-violet-400 md:block">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg></div>
+                    </div>
+                    <div class="relative">
+                      <div class="rounded-lg bg-white p-4 shadow-sm">
+                        <div
+                          class="mb-2 flex h-8 w-8 items-center justify-center rounded-full bg-violet-500 text-sm font-bold text-white">
+                          3</div>
+                        <p class="font-medium text-violet-900">위치/회전 추정</p>
+                        <p class="mt-1 text-xs text-violet-700">카메라 위치, 회전값 실시간 추정</p>
+                      </div>
+                      <div
+                        class="absolute right-0 top-1/2 hidden -translate-y-1/2 translate-x-1/2 text-violet-400 md:block">
+                        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg></div>
+                    </div>
+                    <div>
+                      <div class="rounded-lg bg-white p-4 shadow-sm">
+                        <div
+                          class="mb-2 flex h-8 w-8 items-center justify-center rounded-full bg-emerald-500 text-sm font-bold text-white">
+                          4</div>
+                        <p class="font-medium text-emerald-900">Auto-Correction</p>
+                        <p class="mt-1 text-xs text-emerald-700">자동 보정 알고리즘 적용</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="mt-6 grid gap-4 md:grid-cols-2">
+                    <div class="rounded-lg bg-white/80 p-4">
+                      <p class="mb-2 text-sm font-medium text-violet-900">특징점 자동 추적 (Feature Point Tracking)</p>
+                      <ul class="space-y-1 text-sm text-violet-700">
+                        <li>- 코트 외곽 4개 교차점 실시간 추적</li>
+                        <li>- 중앙선, 공격선 등 보조 특징점 활용</li>
+                        <li>- KLT Optical Flow 기반 연속 추적</li>
+                      </ul>
+                    </div>
+                    <div class="rounded-lg bg-white/80 p-4">
+                      <p class="mb-2 text-sm font-medium text-violet-900">Auto-Correction 알고리즘</p>
+                      <ul class="space-y-1 text-sm text-violet-700">
+                        <li>- RANSAC 기반 아웃라이어 제거</li>
+                        <li>- 칼만 필터를 통한 노이즈 저감</li>
+                        <li>- 30fps 이상 실시간 보정 처리</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="rounded-xl border border-border bg-card p-6 shadow-sm">
+                <div class="mb-6 flex items-center gap-3">
+                  <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-rose-100"><svg
+                      xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="lucide lucide-palette h-5 w-5 text-rose-600" aria-hidden="true">
+                      <path
+                        d="M12 22a1 1 0 0 1 0-20 10 9 0 0 1 10 9 5 5 0 0 1-5 5h-2.25a1.75 1.75 0 0 0-1.4 2.8l.3.4a1.75 1.75 0 0 1-1.4 2.8z">
+                      </path>
+                      <circle cx="13.5" cy="6.5" r=".5" fill="currentColor"></circle>
+                      <circle cx="17.5" cy="10.5" r=".5" fill="currentColor"></circle>
+                      <circle cx="6.5" cy="12.5" r=".5" fill="currentColor"></circle>
+                      <circle cx="8.5" cy="7.5" r=".5" fill="currentColor"></circle>
+                    </svg></div>
+                  <div>
+                    <h4 class="text-lg font-semibold text-foreground">모듈 3: 색상 기반 필터링 모듈 개발</h4>
+                    <p class="text-sm text-muted-foreground">조명 변화에 강건한 라인 추출 엔진</p>
+                  </div>
+                </div>
+                <div class="grid gap-6 lg:grid-cols-3">
+                  <div class="rounded-lg border border-rose-200 bg-rose-50 p-4">
+                    <p class="mb-3 font-medium text-rose-900">Color Space 변환</p>
+                    <div class="space-y-3">
+                      <div class="rounded bg-white p-3">
+                        <div class="flex items-center justify-between"><span
+                            class="text-sm font-medium text-red-600">RGB</span><span
+                            class="rounded bg-red-100 px-2 py-0.5 text-xs text-red-600">조명 의존적</span></div>
+                        <p class="mt-1 text-xs text-gray-600">밝기 변화에 민감하여 일관된 라인 추출 어려움</p>
+                      </div>
+                      <div class="flex justify-center"><svg class="h-5 w-5 text-rose-400" fill="none"
+                          viewBox="0 0 24 24" stroke="currentColor">
+                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                        </svg></div>
+                      <div class="rounded bg-white p-3 ring-2 ring-emerald-400">
+                        <div class="flex items-center justify-between"><span
+                            class="text-sm font-medium text-emerald-600">HSV</span><span
+                            class="rounded bg-emerald-100 px-2 py-0.5 text-xs text-emerald-600">조명 독립적</span></div>
+                        <p class="mt-1 text-xs text-gray-600">색조(H)와 채도(S) 분리로 조명 변화 대응</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="rounded-lg border border-amber-200 bg-amber-50 p-4">
+                    <p class="mb-3 font-medium text-amber-900">Dynamic Thresholding</p>
+                    <div class="space-y-3">
+                      <div class="rounded bg-white p-3">
+                        <p class="text-sm font-medium text-amber-800">구장 바닥면 색상 분석</p>
+                        <div class="mt-2 flex gap-1">
+                          <div class="h-4 w-4 rounded bg-amber-700" title="나무 바닥"></div>
+                          <div class="h-4 w-4 rounded bg-blue-600" title="파란 코트"></div>
+                          <div class="h-4 w-4 rounded bg-green-600" title="녹색 코트"></div>
+                          <div class="h-4 w-4 rounded bg-orange-500" title="주황 코트"></div>
+                        </div>
+                      </div>
+                      <div class="rounded bg-white p-3">
+                        <p class="text-sm font-medium text-amber-800">라인 색상 대비 극대화</p>
+                        <div class="mt-2 flex items-center gap-2">
+                          <div class="h-3 w-12 rounded bg-white ring-1 ring-gray-300"></div><span
+                            class="text-xs text-gray-500">흰색 라인</span>
+                        </div>
+                      </div>
+                      <div class="rounded bg-amber-100 p-3">
+                        <p class="text-xs text-amber-700"><strong>적응형 임계값:</strong> 프레임별 히스토그램 분석을 통한 자동 임계값 조정</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="rounded-lg border border-cyan-200 bg-cyan-50 p-4">
+                    <p class="mb-3 font-medium text-cyan-900">노이즈 필터</p>
+                    <div class="space-y-3">
+                      <div class="rounded bg-white p-3">
+                        <p class="text-sm font-medium text-cyan-800">라인 규격 검증</p>
+                        <ul class="mt-1 space-y-1 text-xs text-cyan-700">
+                          <li>- 배구 코트 라인 폭: 5cm</li>
+                          <li>- 최소/최대 길이 기준 적용</li>
+                          <li>- 직선도(Linearity) 검증</li>
+                        </ul>
+                      </div>
+                      <div class="rounded bg-white p-3">
+                        <p class="text-sm font-medium text-cyan-800">파편 객체 제거</p>
+                        <ul class="mt-1 space-y-1 text-xs text-cyan-700">
+                          <li>- 농구/배드민턴 라인 필터링</li>
+                          <li>- 광고판, 관중석 잡음 제거</li>
+                          <li>- Morphological Operations 적용</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="mt-6 rounded-lg border border-gray-200 bg-gray-50 p-4">
+                  <p class="mb-3 text-sm font-medium text-gray-900">색상 기반 필터링 처리 파이프라인</p>
+                  <div class="flex flex-wrap items-center gap-2 text-sm"><span
+                      class="rounded bg-rose-100 px-3 py-1.5 text-rose-800">RGB 입력</span><svg
+                      class="h-4 w-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg><span class="rounded bg-violet-100 px-3 py-1.5 text-violet-800">HSV 변환</span><svg
+                      class="h-4 w-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg><span class="rounded bg-amber-100 px-3 py-1.5 text-amber-800">Dynamic Threshold</span><svg
+                      class="h-4 w-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg><span class="rounded bg-cyan-100 px-3 py-1.5 text-cyan-800">Morphology</span><svg
+                      class="h-4 w-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg><span class="rounded bg-emerald-100 px-3 py-1.5 text-emerald-800">Line Detection</span><svg
+                      class="h-4 w-4 text-gray-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                    </svg><span class="rounded bg-blue-500 px-3 py-1.5 font-medium text-white">배구 코트 라인</span></div>
+                </div>
+              </div>
+            </div>
+            <div class="space-y-8">
+              <div class="rounded-xl border border-border bg-gradient-to-r from-slate-50 to-zinc-50 p-6 shadow-sm">
+                <h3 class="mb-2 text-xl font-bold text-foreground">3.4 핵심 알고리즘 상세 구현 방안</h3>
+                <p class="text-muted-foreground">다목적 구장 인식 성능 개선을 위한 기술적 구현 상세</p>
+              </div>
+              <div class="rounded-xl border border-border bg-card p-6 shadow-sm">
+                <div class="mb-6 flex items-center gap-3">
+                  <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-indigo-100"><svg
+                      xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="lucide lucide-code-xml h-5 w-5 text-indigo-600" aria-hidden="true">
+                      <path d="m18 16 4-4-4-4"></path>
+                      <path d="m6 8-4 4 4 4"></path>
+                      <path d="m14.5 4-5 16"></path>
+                    </svg></div>
+                  <div>
+                    <h4 class="text-lg font-semibold text-foreground">알고리즘 1: 호모그래피(Homography) 자동 계산</h4>
+                    <p class="text-sm text-muted-foreground">4개 코너 포인트 기반 좌표 변환 행렬 계산</p>
+                  </div>
+                </div>
+                <div class="grid gap-6 lg:grid-cols-2">
+                  <div class="space-y-4">
+                    <div class="rounded-lg border border-indigo-200 bg-indigo-50 p-4">
+                      <p class="mb-3 font-medium text-indigo-900">수학적 정의</p>
+                      <div class="rounded bg-white p-4 font-mono text-sm">
+                        <p class="text-indigo-800">H = 3x3 변환 행렬</p>
+                        <p class="mt-2 text-gray-700">[x'] [h11 h12 h13] [x]</p>
+                        <p class="text-gray-700">[y'] = [h21 h22 h23] [y]</p>
+                        <p class="text-gray-700">[1 ] [h31 h32 h33] [1]</p>
+                      </div>
+                      <p class="mt-3 text-sm text-indigo-700">4개의 대응점으로부터 8개의 방정식을 구성하여 H 행렬의 8개 자유도를 결정</p>
+                    </div>
+                    <div class="rounded-lg bg-gray-50 p-4">
+                      <p class="mb-2 font-medium text-gray-900">입력 데이터</p>
+                      <ul class="space-y-1 text-sm text-gray-700">
+                        <li>- 영상 좌표계: 4개 코너 포인트 (픽셀 단위)</li>
+                        <li>- 월드 좌표계: 배구 코트 실제 치수 (9m x 18m)</li>
+                        <li>- 해상도: 1920x1080 또는 3840x2160</li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="rounded-lg border border-gray-200 bg-white p-4">
+                    <p class="mb-3 font-medium text-gray-900">구현 단계</p>
+                    <div class="space-y-3">
+                      <div class="flex items-start gap-3">
+                        <div
+                          class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-indigo-500 text-xs font-bold text-white">
+                          1</div>
+                        <div>
+                          <p class="font-medium text-gray-800">포인트 수집</p>
+                          <p class="text-sm text-gray-600">사용자가 UI에서 4개 코너 클릭 시 좌표 저장</p>
+                        </div>
+                      </div>
+                      <div class="flex items-start gap-3">
+                        <div
+                          class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-indigo-500 text-xs font-bold text-white">
+                          2</div>
+                        <div>
+                          <p class="font-medium text-gray-800">DLT 알고리즘 적용</p>
+                          <p class="text-sm text-gray-600">Direct Linear Transform으로 H 행렬 초기값 계산</p>
+                        </div>
+                      </div>
+                      <div class="flex items-start gap-3">
+                        <div
+                          class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-indigo-500 text-xs font-bold text-white">
+                          3</div>
+                        <div>
+                          <p class="font-medium text-gray-800">비선형 최적화</p>
+                          <p class="text-sm text-gray-600">Levenberg-Marquardt로 재투영 오차 최소화</p>
+                        </div>
+                      </div>
+                      <div class="flex items-start gap-3">
+                        <div
+                          class="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-emerald-500 text-xs font-bold text-white">
+                          4</div>
+                        <div>
+                          <p class="font-medium text-gray-800">검증 및 적용</p>
+                          <p class="text-sm text-gray-600">재투영 오차 2px 이내 확인 후 적용</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="rounded-xl border border-border bg-card p-6 shadow-sm">
+                <div class="mb-6 flex items-center gap-3">
+                  <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-violet-100"><svg
+                      xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="lucide lucide-git-branch h-5 w-5 text-violet-600" aria-hidden="true">
+                      <path d="M15 6a9 9 0 0 0-9 9V3"></path>
+                      <circle cx="18" cy="6" r="3"></circle>
+                      <circle cx="6" cy="18" r="3"></circle>
+                    </svg></div>
+                  <div>
+                    <h4 class="text-lg font-semibold text-foreground">알고리즘 2: KLT Optical Flow 기반 특징점 추적</h4>
+                    <p class="text-sm text-muted-foreground">Kanade-Lucas-Tomasi 알고리즘을 통한 실시간 특징점 추적</p>
+                  </div>
+                </div>
+                <div class="grid gap-6 lg:grid-cols-3">
+                  <div class="rounded-lg border border-violet-200 bg-violet-50 p-4">
+                    <p class="mb-3 font-medium text-violet-900">특징점 선정 기준</p>
+                    <ul class="space-y-2 text-sm text-violet-700">
+                      <li class="flex items-start gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                          viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-circle-check mt-0.5 h-4 w-4 shrink-0 text-violet-500" aria-hidden="true">
+                          <circle cx="12" cy="12" r="10"></circle>
+                          <path d="m9 12 2 2 4-4"></path>
+                        </svg><span>코트 4개 코너 교차점 (필수)</span></li>
+                      <li class="flex items-start gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                          viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-circle-check mt-0.5 h-4 w-4 shrink-0 text-violet-500" aria-hidden="true">
+                          <circle cx="12" cy="12" r="10"></circle>
+                          <path d="m9 12 2 2 4-4"></path>
+                        </svg><span>중앙선-사이드라인 교차점 (2개)</span></li>
+                      <li class="flex items-start gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                          viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-circle-check mt-0.5 h-4 w-4 shrink-0 text-violet-500" aria-hidden="true">
+                          <circle cx="12" cy="12" r="10"></circle>
+                          <path d="m9 12 2 2 4-4"></path>
+                        </svg><span>공격선-사이드라인 교차점 (4개)</span></li>
+                      <li class="flex items-start gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                          viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-circle-check mt-0.5 h-4 w-4 shrink-0 text-violet-500" aria-hidden="true">
+                          <circle cx="12" cy="12" r="10"></circle>
+                          <path d="m9 12 2 2 4-4"></path>
+                        </svg><span>총 10개 특징점 동시 추적</span></li>
+                    </ul>
+                  </div>
+                  <div class="rounded-lg border border-violet-200 bg-violet-50 p-4">
+                    <p class="mb-3 font-medium text-violet-900">추적 파라미터</p>
+                    <div class="space-y-2 text-sm">
+                      <div class="flex justify-between rounded bg-white px-3 py-2"><span class="text-violet-700">윈도우
+                          크기</span><span class="font-mono font-medium text-violet-900">21x21 px</span></div>
+                      <div class="flex justify-between rounded bg-white px-3 py-2"><span class="text-violet-700">피라미드
+                          레벨</span><span class="font-mono font-medium text-violet-900">3 levels</span></div>
+                      <div class="flex justify-between rounded bg-white px-3 py-2"><span class="text-violet-700">최대
+                          반복</span><span class="font-mono font-medium text-violet-900">30 iter</span></div>
+                      <div class="flex justify-between rounded bg-white px-3 py-2"><span class="text-violet-700">수렴
+                          임계값</span><span class="font-mono font-medium text-violet-900">0.03 px</span></div>
+                    </div>
+                  </div>
+                  <div class="rounded-lg border border-violet-200 bg-violet-50 p-4">
+                    <p class="mb-3 font-medium text-violet-900">성능 사양</p>
+                    <div class="space-y-2 text-sm">
+                      <div class="flex justify-between rounded bg-white px-3 py-2"><span class="text-violet-700">처리
+                          속도</span><span class="font-mono font-medium text-emerald-600">60+ fps</span></div>
+                      <div class="flex justify-between rounded bg-white px-3 py-2"><span class="text-violet-700">추적
+                          정확도</span><span class="font-mono font-medium text-emerald-600">0.5px 이내</span></div>
+                      <div class="flex justify-between rounded bg-white px-3 py-2"><span class="text-violet-700">드리프트
+                          보정</span><span class="font-mono font-medium text-violet-900">매 30프레임</span></div>
+                      <div class="flex justify-between rounded bg-white px-3 py-2"><span class="text-violet-700">GPU
+                          가속</span><span class="font-mono font-medium text-emerald-600">CUDA 지원</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="rounded-xl border border-border bg-card p-6 shadow-sm">
+                <div class="mb-6 flex items-center gap-3">
+                  <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-amber-100"><svg
+                      xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="lucide lucide-zap h-5 w-5 text-amber-600" aria-hidden="true">
+                      <path
+                        d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z">
+                      </path>
+                    </svg></div>
+                  <div>
+                    <h4 class="text-lg font-semibold text-foreground">알고리즘 3: RANSAC 기반 아웃라이어 제거</h4>
+                    <p class="text-sm text-muted-foreground">Random Sample Consensus를 통한 노이즈 및 이상치 필터링</p>
+                  </div>
+                </div>
+                <div class="rounded-lg border border-amber-200 bg-gradient-to-r from-amber-50 to-orange-50 p-6">
+                  <div class="grid gap-6 lg:grid-cols-2">
+                    <div>
+                      <p class="mb-4 font-medium text-amber-900">RANSAC 동작 원리</p>
+                      <div class="space-y-3">
+                        <div class="flex items-center gap-3 rounded-lg bg-white p-3">
+                          <div
+                            class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-amber-500 text-sm font-bold text-white">
+                            1</div>
+                          <div>
+                            <p class="text-sm font-medium text-amber-900">무작위 샘플링</p>
+                            <p class="text-xs text-amber-700">최소 4개 대응점 무작위 선택</p>
+                          </div>
+                        </div>
+                        <div class="flex items-center gap-3 rounded-lg bg-white p-3">
+                          <div
+                            class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-amber-500 text-sm font-bold text-white">
+                            2</div>
+                          <div>
+                            <p class="text-sm font-medium text-amber-900">모델 추정</p>
+                            <p class="text-xs text-amber-700">샘플로부터 호모그래피 계산</p>
+                          </div>
+                        </div>
+                        <div class="flex items-center gap-3 rounded-lg bg-white p-3">
+                          <div
+                            class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-amber-500 text-sm font-bold text-white">
+                            3</div>
+                          <div>
+                            <p class="text-sm font-medium text-amber-900">인라이어 계산</p>
+                            <p class="text-xs text-amber-700">임계값 내 점들을 인라이어로 분류</p>
+                          </div>
+                        </div>
+                        <div class="flex items-center gap-3 rounded-lg bg-white p-3">
+                          <div
+                            class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-emerald-500 text-sm font-bold text-white">
+                            4</div>
+                          <div>
+                            <p class="text-sm font-medium text-emerald-900">최적 모델 선택</p>
+                            <p class="text-xs text-emerald-700">가장 많은 인라이어를 가진 모델 채택</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div>
+                      <p class="mb-4 font-medium text-amber-900">파라미터 설정</p>
+                      <div class="space-y-3">
+                        <div class="rounded-lg bg-white p-3">
+                          <div class="flex justify-between"><span class="text-sm text-amber-700">반복 횟수</span><span
+                              class="font-mono text-sm font-medium text-amber-900">1000회</span></div>
+                          <p class="mt-1 text-xs text-gray-500">99.9% 확률로 최적 모델 발견 보장</p>
+                        </div>
+                        <div class="rounded-lg bg-white p-3">
+                          <div class="flex justify-between"><span class="text-sm text-amber-700">거리 임계값</span><span
+                              class="font-mono text-sm font-medium text-amber-900">3.0 px</span></div>
+                          <p class="mt-1 text-xs text-gray-500">재투영 오차 기준 인라이어/아웃라이어 분류</p>
+                        </div>
+                        <div class="rounded-lg bg-white p-3">
+                          <div class="flex justify-between"><span class="text-sm text-amber-700">최소 인라이어 비율</span><span
+                              class="font-mono text-sm font-medium text-amber-900">70%</span></div>
+                          <p class="mt-1 text-xs text-gray-500">이 비율 미만 시 재캘리브레이션 요청</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="rounded-xl border border-border bg-card p-6 shadow-sm">
+                <div class="mb-6 flex items-center gap-3">
+                  <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-cyan-100"><svg
+                      xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="lucide lucide-cpu h-5 w-5 text-cyan-600" aria-hidden="true">
+                      <path d="M12 20v2"></path>
+                      <path d="M12 2v2"></path>
+                      <path d="M17 20v2"></path>
+                      <path d="M17 2v2"></path>
+                      <path d="M2 12h2"></path>
+                      <path d="M2 17h2"></path>
+                      <path d="M2 7h2"></path>
+                      <path d="M20 12h2"></path>
+                      <path d="M20 17h2"></path>
+                      <path d="M20 7h2"></path>
+                      <path d="M7 20v2"></path>
+                      <path d="M7 2v2"></path>
+                      <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+                      <rect x="8" y="8" width="8" height="8" rx="1"></rect>
+                    </svg></div>
+                  <div>
+                    <h4 class="text-lg font-semibold text-foreground">알고리즘 4: 칼만 필터 기반 노이즈 저감</h4>
+                    <p class="text-sm text-muted-foreground">카메라 위치/회전의 시계열 추정 및 노이즈 필터링</p>
+                  </div>
+                </div>
+                <div class="grid gap-6 lg:grid-cols-2">
+                  <div class="rounded-lg border border-cyan-200 bg-cyan-50 p-4">
+                    <p class="mb-3 font-medium text-cyan-900">상태 벡터 정의</p>
+                    <div class="rounded bg-white p-4 font-mono text-sm">
+                      <p class="text-cyan-800">State Vector (12D):</p>
+                      <p class="mt-2 text-gray-700">x = [tx, ty, tz, // 위치 (3D)</p>
+                      <p class="text-gray-700"> rx, ry, rz, // 회전 (3D)</p>
+                      <p class="text-gray-700"> vtx, vty, vtz, // 속도 (3D)</p>
+                      <p class="text-gray-700"> vrx, vry, vrz] // 각속도 (3D)</p>
+                    </div>
+                    <p class="mt-3 text-sm text-cyan-700">카메라의 6DOF 자세와 그 변화율을 동시에 추정</p>
+                  </div>
+                  <div class="rounded-lg border border-cyan-200 bg-cyan-50 p-4">
+                    <p class="mb-3 font-medium text-cyan-900">칼만 필터 루프</p>
+                    <div class="space-y-2">
+                      <div class="flex items-center gap-3 rounded bg-white p-2">
+                        <div class="h-2 w-2 rounded-full bg-cyan-500"></div><span
+                          class="text-sm text-cyan-800"><strong>Predict:</strong> 이전 상태로부터 현재 상태 예측</span>
+                      </div>
+                      <div class="flex items-center gap-3 rounded bg-white p-2">
+                        <div class="h-2 w-2 rounded-full bg-cyan-500"></div><span
+                          class="text-sm text-cyan-800"><strong>Measure:</strong> 특징점 추적 결과로부터 관측값 획득</span>
+                      </div>
+                      <div class="flex items-center gap-3 rounded bg-white p-2">
+                        <div class="h-2 w-2 rounded-full bg-cyan-500"></div><span
+                          class="text-sm text-cyan-800"><strong>Update:</strong> 예측값과 관측값을 융합하여 상태 보정</span>
+                      </div>
+                      <div class="flex items-center gap-3 rounded bg-emerald-100 p-2">
+                        <div class="h-2 w-2 rounded-full bg-emerald-500"></div><span
+                          class="text-sm text-emerald-800"><strong>Output:</strong> 노이즈가 제거된 안정적인 카메라 자세</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="mt-6 rounded-lg border border-gray-200 bg-gray-50 p-4">
+                  <p class="mb-3 font-medium text-gray-900">칼만 필터 적용 전/후 성능 비교</p>
+                  <div class="grid gap-4 sm:grid-cols-2">
+                    <div class="rounded bg-white p-3">
+                      <p class="text-sm font-medium text-red-600">적용 전 (Raw Tracking)</p>
+                      <ul class="mt-2 space-y-1 text-sm text-gray-600">
+                        <li>- 위치 노이즈: ±5px</li>
+                        <li>- 프레임 간 지터링 발생</li>
+                        <li>- 급격한 변화 시 불안정</li>
+                      </ul>
+                    </div>
+                    <div class="rounded bg-white p-3 ring-2 ring-emerald-400">
+                      <p class="text-sm font-medium text-emerald-600">적용 후 (Kalman Filtered)</p>
+                      <ul class="mt-2 space-y-1 text-sm text-gray-600">
+                        <li>- 위치 노이즈: ±0.5px</li>
+                        <li>- 부드러운 연속 추적</li>
+                        <li>- 급격한 변화 대응 가능</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="rounded-xl border border-border bg-card p-6 shadow-sm">
+                <div class="mb-6 flex items-center gap-3">
+                  <div class="flex h-10 w-10 items-center justify-center rounded-lg bg-rose-100"><svg
+                      xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                      stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                      class="lucide lucide-database h-5 w-5 text-rose-600" aria-hidden="true">
+                      <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                      <path d="M3 5V19A9 3 0 0 0 21 19V5"></path>
+                      <path d="M3 12A9 3 0 0 0 21 12"></path>
+                    </svg></div>
+                  <div>
+                    <h4 class="text-lg font-semibold text-foreground">알고리즘 5: HSV 기반 적응형 라인 추출</h4>
+                    <p class="text-sm text-muted-foreground">조명 변화에 강건한 색상 필터링 알고리즘</p>
+                  </div>
+                </div>
+                <div class="grid gap-6 lg:grid-cols-2">
+                  <div class="space-y-4">
+                    <div class="rounded-lg border border-rose-200 bg-rose-50 p-4">
+                      <p class="mb-3 font-medium text-rose-900">HSV 색공간 장점</p>
+                      <div class="space-y-2">
+                        <div class="rounded bg-white p-3">
+                          <p class="text-sm font-medium text-rose-800">Hue (색조)</p>
+                          <p class="text-xs text-rose-600">조명 밝기와 무관하게 색상 유지</p>
+                        </div>
+                        <div class="rounded bg-white p-3">
+                          <p class="text-sm font-medium text-rose-800">Saturation (채도)</p>
+                          <p class="text-xs text-rose-600">흰색 라인의 낮은 채도로 쉽게 구분</p>
+                        </div>
+                        <div class="rounded bg-white p-3">
+                          <p class="text-sm font-medium text-rose-800">Value (명도)</p>
+                          <p class="text-xs text-rose-600">흰색 라인의 높은 명도 특성 활용</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="space-y-4">
+                    <div class="rounded-lg border border-rose-200 bg-rose-50 p-4">
+                      <p class="mb-3 font-medium text-rose-900">Dynamic Thresholding 과정</p>
+                      <div class="space-y-2 text-sm">
+                        <div class="flex items-start gap-2 rounded bg-white p-2">
+                          <div
+                            class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-rose-500 text-xs text-white">
+                            1</div><span class="text-rose-800">프레임 히스토그램 분석 (V 채널)</span>
+                        </div>
+                        <div class="flex items-start gap-2 rounded bg-white p-2">
+                          <div
+                            class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-rose-500 text-xs text-white">
+                            2</div><span class="text-rose-800">바닥면 색상 분포 추정 (최빈값)</span>
+                        </div>
+                        <div class="flex items-start gap-2 rounded bg-white p-2">
+                          <div
+                            class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-rose-500 text-xs text-white">
+                            3</div><span class="text-rose-800">라인 색상 범위 동적 계산</span>
+                        </div>
+                        <div class="flex items-start gap-2 rounded bg-white p-2">
+                          <div
+                            class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-rose-500 text-xs text-white">
+                            4</div><span class="text-rose-800">Otsu 이진화로 최적 임계값 결정</span>
+                        </div>
+                        <div class="flex items-start gap-2 rounded bg-emerald-100 p-2">
+                          <div
+                            class="flex h-5 w-5 shrink-0 items-center justify-center rounded-full bg-emerald-500 text-xs text-white">
+                            5</div><span class="text-emerald-800">배구 라인만 추출된 마스크 생성</span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="mt-6 rounded-lg border border-gray-200 bg-gray-50 p-4">
+                  <p class="mb-3 font-medium text-gray-900">배구 라인 필터링 규칙</p>
+                  <div class="grid gap-3 sm:grid-cols-4">
+                    <div class="rounded bg-white p-3 text-center">
+                      <p class="text-2xl font-bold text-blue-600">5cm</p>
+                      <p class="text-xs text-gray-600">표준 라인 폭</p>
+                    </div>
+                    <div class="rounded bg-white p-3 text-center">
+                      <p class="text-2xl font-bold text-blue-600">9m</p>
+                      <p class="text-xs text-gray-600">코트 가로 길이</p>
+                    </div>
+                    <div class="rounded bg-white p-3 text-center">
+                      <p class="text-2xl font-bold text-blue-600">18m</p>
+                      <p class="text-xs text-gray-600">코트 세로 길이</p>
+                    </div>
+                    <div class="rounded bg-white p-3 text-center">
+                      <p class="text-2xl font-bold text-emerald-600">95%+</p>
+                      <p class="text-xs text-gray-600">직선도 기준</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
@@ -1691,7 +2492,7 @@
                         <td class="px-4 py-3 text-center"><span
                             class="inline-block w-16 rounded-full bg-blue-100 px-2 py-1 text-xs font-medium text-blue-700">88<!-- -->%
                             이상</span></td>
-                        <td class="px-4 py-3 text-sm font-medium text-amber-800">환경 적응 학습 집중 적용</td>
+                        <td class="px-4 py-3 text-sm font-medium text-amber-800">색상 기반 필터링 + 온라인 캘리브레이션 적용</td>
                       </tr>
                       <tr class="hover:bg-muted/50">
                         <td class="px-4 py-3 text-sm font-medium text-foreground">리시브 (Receive)</td>
@@ -2356,11 +3157,7 @@
       </div>
     </div>
   </main><!--$--><!--/$-->
-  
-  
-
-  </veepn-lock-screen>
-  
+ 
 </body>
 
 </html>
